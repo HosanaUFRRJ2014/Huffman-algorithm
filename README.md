@@ -22,16 +22,15 @@ o arquivo tol.txt será compactado e, ao ser decompactado, o conteúdo será arm
 Fiz assim porque , se tivesse o mesmo nome, sobreescreveria o arquivo original, que se encontra na mesma pasta para facilitar os testes.
 
 *** 
-    - Comando para compilar:
-       gcc huffman.c -o huf
+    Comando para compilar:
+         gcc huffman.c -o huf
 
-****Comandos para executar:
+**** Comandos para executar:
 
     - A compressão:
-      ./huf <arquivoAcompactar>.txt <arquivoCompactado>.huf
-
+        ./huf <arquivoAcompactar>.txt <arquivoCompactado>.huf
     - A descompressão:
-      ./huf <arquivoCompactado>.huf
+          ./huf <arquivoCompactado>.huf
 
-    - arquivoAcompactar é um dos textos exemplo.
-    - arquivoCompactado é o nome, que deverá ser fornecido pelo usuário, do arquivo saída para os dados compactados. Na fase da descompressão, deve ser fornecido um <arquivo>.huf existente, criado na fase de compressão.
+  - arquivoAcompactar é um dos textos exemplo.
+  - arquivoCompactado é o nome, que deverá ser fornecido pelo usuário, do arquivo saída para os dados compactados. Na fase da descompressão, deve ser fornecido um <arquivo>.huf existente, criado na fase de compressão.
