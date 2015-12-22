@@ -21,8 +21,9 @@ guide.txt
 o arquivo tol.txt será compactado e, ao ser decompactado, o conteúdo será armazenado num arquivo tol2.txt.
 Fiz assim porque , se tivesse o mesmo nome, sobreescreveria o arquivo original, que se encontra na mesma pasta para facilitar os testes.
 
-*** Comando para compilar:
-    gcc huffman.c -o huf
+*** 
+    - Comando para compilar:
+       gcc huffman.c -o huf
 
 ****Comandos para executar:
 
