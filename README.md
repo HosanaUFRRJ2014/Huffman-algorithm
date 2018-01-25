@@ -27,11 +27,11 @@ Fiz assim porque , se tivesse o mesmo nome, sobreescreveria o arquivo original, 
 
 ### Comandos para executar:
 
-- A compressão:
+- Comprimindo um arquivo:
  
         ./huf <arquivoAcompactar>.txt <arquivoCompactado>.huf
         
-- A descompressão:
+- Descomprimindo um arquivo:
         
         ./huf <arquivoCompactado>.huf
 
