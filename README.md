@@ -27,10 +27,13 @@ Fiz assim porque , se tivesse o mesmo nome, sobreescreveria o arquivo original, 
 
 ### Comandos para executar:
 
-    - A compressão:
+- A compressão:
+ 
         ./huf <arquivoAcompactar>.txt <arquivoCompactado>.huf
-    - A descompressão:
-          ./huf <arquivoCompactado>.huf
+        
+- A descompressão:
+        
+        ./huf <arquivoCompactado>.huf
 
   - **arquivoAcompactar** é um dos textos exemplo.
   - **arquivoCompactado** é o nome, que deverá ser fornecido pelo usuário, do arquivo-saída para os dados compactados. Na fase da descompressão, deve ser fornecido um <arquivo>.huf existente, criado na fase de compressão.
