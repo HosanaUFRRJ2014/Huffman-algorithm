@@ -20,12 +20,12 @@ Quando ocorrer a descompactação, os arquivos serão nomeados da seguite maneir
 o arquivo tol.txt será compactado e, ao ser decompactado, o conteúdo será armazenado num arquivo tol2.txt.
 Fiz assim porque , se tivesse o mesmo nome, sobreescreveria o arquivo original, que se encontra na mesma pasta para facilitar os testes.
 
-****Comando para compilar:
+**Comando para compilar:**
 
     gcc huffman.c -o huf
 
 
-****Comandos para executar:
+**Comandos para executar:**
 
     - A compressão:
         ./huf <arquivoAcompactar>.txt <arquivoCompactado>.huf
