@@ -35,5 +35,5 @@ Fiz assim porque , se tivesse o mesmo nome, sobreescreveria o arquivo original, 
         
         ./huf <arquivoCompactado>.huf
 
-  - **arquivoAcompactar** é um dos textos exemplo.
-  - **arquivoCompactado** é o nome, que deverá ser fornecido pelo usuário, do arquivo-saída para os dados compactados. Na fase da descompressão, deve ser fornecido um <arquivo>.huf existente, criado na fase de compressão.
+- **arquivoAcompactar** é um dos textos exemplo.
+- **arquivoCompactado** é o nome, que deverá ser fornecido pelo usuário, do arquivo-saída para os dados compactados. Na fase da descompressão, deve ser fornecido um <arquivo>.huf existente, criado na fase de compressão.
